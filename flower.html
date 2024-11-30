@@ -7,6 +7,21 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" href="img/flowers.png" type="image/x-icon">
     <title>flowers</title>
+    <style>
+      .text {
+          position: absolute;
+          top: 50%; /* Adjust this value to position the text vertically */
+          left: 80%; /* Adjust this value to position the text horizontally */
+          transform: translate(-50%, -50%);
+          color: white; /* Change color as needed */
+          font-size: 1.5em; /* Adjust font size as needed */
+          text-align: center; /* Center the text */
+          z-index: 10; /* Ensure the text is above other elements */
+      }
+      .container {
+          position: relative; /* Ensure this is relative for absolute positioning of text */
+      }
+  </style>
 </head>
 <body class="container">
   <!-- Pembuat code: https://codepen.io/mdusmanansari/pen/BamepLe -->
@@ -307,6 +322,8 @@
         </div>
       </div>
     </div>
+
+    <div class="text">In all timelines, in all possibilities. Only you, that i love.</div>
 
     <audio controls>
         <source src = "Ramai Sepi Bersama.mp3" type="audio/mp3">
